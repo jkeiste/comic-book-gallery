@@ -32,13 +32,13 @@
         @if (artists.Length > 0)
         {
             <h5>Artists:</h5>
-            <div>
-                @foreach (var artist in artists)
-                {
-                    <ul>
+            <div>                
+                <ul>
+                    @foreach (var artist in artists)
+                    {
                         <li>@artist</li>
-                    </ul>
-                }
+                    }                            
+                </ul>
             </div>
         }
 
